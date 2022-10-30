@@ -81,4 +81,5 @@
     <color name="bt_color_icon_6">#b4681da8</color>
     <color name="bt_color_icon_7">#b4007b83</color>
     <color name="bt_outline_color">#1f000000</color>
+    <color name="face_enroll_icon_color">#42a5f5</color>
 </resources>

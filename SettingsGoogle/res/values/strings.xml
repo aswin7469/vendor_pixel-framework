@@ -532,6 +532,7 @@ Flip your phone over to try."</string>
     <string name="search_bar_account_avatar_content_description">Profile picture, double tap to open Google Account</string>
     <string name="security_dismiss_dialog_dismiss_button">Dismiss</string>
     <string name="security_dismiss_dialog_title">Dismiss this warning?</string>
+    <string name="security_settings_face_enroll_finish_description">Now you can use your face to unlock your phone or verify it’s you, like when you sign in to apps or approve a purchase</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Allow Face Unlock</string>
     <string name="security_settings_face_enroll_education_message">On the next screen, rotate your head to capture all angles of your face</string>
     <string name="security_settings_face_enroll_education_message_accessibility" product="device">On the next screen, hold your phone at eye level</string>
