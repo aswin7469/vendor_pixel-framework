@@ -6,7 +6,6 @@
     <bool name="config_clear_calling_enabled">false</bool>
     <bool name="config_connectivity_helper_call_quality_default_value">true</bool>
     <bool name="config_connectivity_helper_d2d_default_value">false</bool>
-    <bool name="config_face_enroll_confirmation_show_illustration">true</bool>
     <bool name="config_face_enroll_use_traffic_light">false</bool>
     <bool name="config_face_settings_attention_supported">true</bool>
     <bool name="config_face_settings_should_manage_preview">true</bool>

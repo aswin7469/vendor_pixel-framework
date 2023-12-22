@@ -12,8 +12,7 @@
     <color name="columbus_highlight">#ff82b1ff</color>
     <color name="contextual_card_dismissal_background">#fff1f3f4</color>
     <color name="dream_card_preview_bg_color">@*android:color/system_surface_container_light</color>
-    <color name="dream_no_screensaver_icon_color">@*android:color/system_on_surface_variant_light
-    </color>
+    <color name="dream_no_screensaver_icon_color">@*android:color/system_on_surface_variant_light</color>
     <color name="face_enroll_cell_enrolled">#14ffffff</color>
     <color name="face_enroll_cell_no_activity_end">#ffd2e3fc</color>
     <color name="face_enroll_cell_no_activity_start">#00d2e3fc</color>

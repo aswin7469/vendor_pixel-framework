@@ -198,12 +198,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/SudThemeGlif.Light" />
         <activity
-            android:name="com.google.android.settings.biometrics.face.FaceEnrollFoldPage"
-            android:configChanges="density|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:theme="@style/SudThemeGlif.Light" />
-        <activity
             android:name="com.google.android.settings.biometrics.face.FaceEnrollEnrolling"
             android:exported="false"
             android:screenOrientation="portrait"

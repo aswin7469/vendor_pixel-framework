@@ -235,7 +235,7 @@ Clear Calling works on Wi‑Fi calling and most networks, not available for 3G n
     <string name="config_emergency_intent_action">com.google.android.safetyhub.SAFETY_HUB</string>
     <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollTrampoline</string>
-    <string name="config_face_enroll_traffic_light_package" />
+    <string name="config_face_enroll_traffic_light_package"/>
     <string name="config_limited_warranty_overlay_package_name" />
     <string name="config_featureFactory">com.google.android.settings.overlay.FeatureFactoryImpl</string>
     <string name="config_grayscale_settings_intent">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
@@ -256,9 +256,6 @@ Clear Calling works on Wi‑Fi calling and most networks, not available for 3G n
     <string name="connectivity_helper_call_quality_title">Get notifications</string>
     <string name="extreme_battery_saver_summary">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
     <string name="extreme_battery_saver_title">Extreme Battery Saver</string>
-    <string name="face_confirmation_hide_illustration_description">Now when you pick up your phone or tap the screen, you can use your face to unlock.</string>
-    <string name="face_confirmation_info_enough_light">Face Unlock works best when there’s enough light and you’re not wearing a mask or dark glasses.</string>
-    <string name="face_confirmation_info_outside_screen">Face Unlock works from the outside screen only</string>
     <string name="connectivity_helper_d2d_summary">Notify the other person when your phone has connection issues during calls</string>
     <string name="connectivity_helper_d2d_title">Share connection info</string>
     <string name="connectivity_helper_footnote">You can share connection info when the other caller is using a supported device and network</string>
@@ -267,8 +264,6 @@ Clear Calling works on Wi‑Fi calling and most networks, not available for 3G n
     <string name="dark_ui_text">Dark theme uses a black background to help keep your battery alive longer. Dark theme schedules wait to turn on until your screen is off.</string>
     <string name="dialog_aware_settings_message" />
     <string name="dialog_aware_settings_ok" />
-    <string name="face_enrolling_close_to_continue">Fold phone during setup</string>
-    <string name="face_enrolling_close_to_continue_description">The phone must be folded to set up or use Face Unlock</string>
     <string name="dialog_aware_settings_title" />
     <string name="dock_setup_notification_text" />
     <string name="dock_summary_charging_phone">Charging phone</string>
@@ -296,10 +291,6 @@ If you volunteer to participate, data collected from unlock attempts (e.g. facia
     <string name="face_enrolling_participation_title">Help make Face Unlock better</string>
     <string name="face_enrolling_skip_help_debug">Skip</string>
     <string name="face_enrolling_title">Hold the phone still. Rotate your head. Go slow.</string>
-    <string name="firmware_update_status_category">Device firmware status</string>
-    <string name="firmware_update_status_title">Firmware update available</string>
-    <string name="firmware_update_version_number_category">Device firmware version</string>
-    <string name="firmware_update_version_number_title">Pixel keyboard firmware</string>
     <string name="face_enrolling_title_accessibility">Look directly at your phone</string>
     <string name="face_enrolling_title_accessibility_progress">Keep looking directly at your phone</string>
     <string name="face_enrolling_too_close">Move phone farther away</string>
@@ -310,6 +301,10 @@ If you volunteer to participate, data collected from unlock attempts (e.g. facia
     <string name="face_enrolling_too_right">Move phone to your left</string>
     <string name="face_enrolling_turn_head_to_arrow">Turn your head toward the arrow</string>
     <string name="face_enrolling_turned_too_far">Turn head a little less</string>
+    <string name="firmware_update_status_category">Device firmware status</string>
+    <string name="firmware_update_status_title">Firmware update available</string>
+    <string name="firmware_update_version_number_category">Device firmware version</string>
+    <string name="firmware_update_version_number_title">Pixel keyboard firmware</string>
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>

@@ -79,8 +79,6 @@
     <dimen name="customized_bg_card_padding_top">0.0dip</dimen>
     <dimen name="customized_card_preference_padding_left">32.0dip</dimen>
     <dimen name="customized_card_preference_padding_right">32.0dip</dimen>
-    <dimen name="face_enroll_participation_checkbox_minimum_size">48.0dip</dimen>
-    <dimen name="face_enroll_posture_guidance_size">348.0dip</dimen>
     <dimen name="face_error_text_appear_distance">16.0dip</dimen>
     <dimen name="reverse_charging_bottom_sheet_image_size">240.0dip</dimen>
     <dimen name="reverse_charging_bottom_sheet_min_height">350.0dip</dimen>
