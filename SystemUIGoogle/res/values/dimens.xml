@@ -59,6 +59,7 @@
     <item type="dimen" name="elmyra_progress_detect_threshold">0.5</item>
     <item type="dimen" name="elmyra_progress_report_threshold">0.55</item>
     <item type="dimen" name="elmyra_screen_off_adjustment">-0.1</item>
+    <dimen name="enhanced_smartspace_base_action_icon_padding">4.0dip</dimen>
     <dimen name="enhanced_smartspace_base_action_icon_margin">8.0dip</dimen>
     <dimen name="enhanced_smartspace_card_height">76.0dip</dimen>
     <dimen name="enhanced_smartspace_combination_card_padding">8.0dip</dimen>
@@ -76,6 +77,9 @@
     <dimen name="enhanced_smartspace_subtitle_margin_top">9.0dip</dimen>
     <dimen name="enhanced_smartspace_subtitle_size">16.0sp</dimen>
     <dimen name="enhanced_smartspace_title_size">20.0sp</dimen>
+    <dimen name="enhanced_smartspace_subtitle_margin_top">5.0dip</dimen>
+    <dimen name="enhanced_smartspace_text_size_medium">16.0sp</dimen>
+    <dimen name="enhanced_smartspace_text_size_regular">20.0sp</dimen>
     <dimen name="focus_rect_expand_size">400.0dip</dimen>
     <dimen name="gleam_popup_margin_top">-52.0dip</dimen>
     <dimen name="glow_gone_max_y">0.0dip</dimen>
@@ -145,4 +149,6 @@
     <dimen name="zerostate_icon_left_margin">10.0dip</dimen>
     <dimen name="zerostate_icon_size">24.0dip</dimen>
     <dimen name="zerostate_icon_tap_padding">12.0dip</dimen>
+    <dimen name="weather_clock_smartspace_scale">1.0</dimen>
+    <dimen name="smartspaceLetterSpacing">0.01</dimen>
 </resources>

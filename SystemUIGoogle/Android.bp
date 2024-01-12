@@ -31,6 +31,7 @@ android_library {
         "columbus-lib",
         "google-battery",
         "vendor.google.google_battery-V1-java",
+        "smartspace-lib"
     ],
     manifest: "AndroidManifest.xml",
 

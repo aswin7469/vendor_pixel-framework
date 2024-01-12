@@ -112,4 +112,7 @@
     <item type="id" name="yellow_glow"/>
     <item type="id" name="zerostate"/>
     <item type="id" name="zerostate_icon_image"/>
+    <item type="id" name="weather_smartspace_view"/>
+    <item type="id"name="date_smartspace_view"/>
+
 </resources>
