@@ -113,6 +113,7 @@
     <item type="id" name="zerostate"/>
     <item type="id" name="zerostate_icon_image"/>
     <item type="id" name="weather_smartspace_view"/>
-    <item type="id"name="date_smartspace_view"/>
+    <item type="id" name="date_smartspace_view"/>
+   <item name="base_template_card_with_date" type="id" />
 
 </resources>

@@ -25,7 +25,6 @@ import com.android.systemui.shade.ShadeModule
 import com.android.systemui.statusbar.NotificationInsetsModule
 import com.android.systemui.statusbar.QsFrameTranslateModule
 import com.android.systemui.keyguard.KeyguardSliceProvider
-import com.google.android.systemui.keyguard.KeyguardSliceProviderGoogle
 import com.google.android.systemui.smartspace.KeyguardSmartspaceStartable
 import com.google.android.systemui.smartspace.SmartSpaceController
 import com.google.android.systemui.statusbar.dagger.CentralSurfacesGoogleModule
@@ -55,12 +54,9 @@ interface SystemUIGoogleComponent : SysUIComponent {
         override fun build(): SystemUIGoogleComponent
     }
 
+    /** Member injection into KeyguardSliceProvider. */
     @SysUISingleton
-    fun createKeyguardSmartspaceController(): KeyguardSmartspaceStartable
-
-    /** Member injection into KeyguardSliceProviderGoogle. */
-    @SysUISingleton
-    fun inject(keyguardSliceProvider: KeyguardSliceProviderGoogle)
+    fun inject(keyguardSliceProvider: KeyguardSliceProvider)
 
     /** Member injection into CustomizationProvider. */
     @SysUISingleton

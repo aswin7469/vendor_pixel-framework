@@ -74,7 +74,6 @@
     <dimen name="enhanced_smartspace_secondary_card_end_margin">1.0dip</dimen>
     <dimen name="enhanced_smartspace_secondary_card_padding_end">12.0dip</dimen>
     <dimen name="enhanced_smartspace_secondary_card_start_margin">1.0dip</dimen>
-    <dimen name="enhanced_smartspace_subtitle_margin_top">9.0dip</dimen>
     <dimen name="enhanced_smartspace_subtitle_size">16.0sp</dimen>
     <dimen name="enhanced_smartspace_title_size">20.0sp</dimen>
     <dimen name="enhanced_smartspace_subtitle_margin_top">5.0dip</dimen>
@@ -150,5 +149,4 @@
     <dimen name="zerostate_icon_size">24.0dip</dimen>
     <dimen name="zerostate_icon_tap_padding">12.0dip</dimen>
     <dimen name="weather_clock_smartspace_scale">1.0</dimen>
-    <dimen name="smartspaceLetterSpacing">0.01</dimen>
 </resources>
