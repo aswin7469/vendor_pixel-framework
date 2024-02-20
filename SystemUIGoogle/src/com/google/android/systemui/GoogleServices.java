@@ -16,6 +16,9 @@ import com.google.android.systemui.columbus.ColumbusServiceWrapper;
 import com.google.android.systemui.elmyra.ElmyraContext;
 import com.google.android.systemui.elmyra.ElmyraService;
 import com.google.android.systemui.elmyra.ServiceConfigurationGoogle;
+import com.android.systemui.plugins.ActivityStarter;
+import com.android.systemui.power.domain.interactor.PowerInteractor;
+import com.android.systemui.util.wakelock.WakeLockLogger;
 
 import java.util.ArrayList;
 
@@ -25,23 +28,30 @@ import dagger.Lazy;
 
 public class GoogleServices extends VendorServices {
     private final Context mContext;
+    private final ActivityStarter mActivityStarter;
     private final ArrayList<Object> mServices;
     private final CentralSurfaces mCentralSurfaces;
     private final AlarmManager mAlarmManager;
     private final QsEventLogger mUiEventLogger;
     private final Lazy<ServiceConfigurationGoogle> mServiceConfigurationGoogle;
     private final Lazy<ColumbusServiceWrapper> mColumbusServiceLazy;
+    private final PowerInteractor mPowerInteractor;
+    private final WakeLockLogger mWakelockLogger;
+
 
     @Inject
-    public GoogleServices(Context context, AlarmManager alarmManager, CentralSurfaces centralSurfaces, QsEventLogger uiEventLogger, Lazy<ServiceConfigurationGoogle> serviceConfigurationGoogleLazy, Lazy<ColumbusServiceWrapper> columbusServiceWrapperLazy) {
+    public GoogleServices(Context context, ActivityStarter activityStarter, AlarmManager alarmManager, CentralSurfaces centralSurfaces, QsEventLogger uiEventLogger, Lazy<ServiceConfigurationGoogle> serviceConfigurationGoogleLazy, Lazy<ColumbusServiceWrapper> columbusServiceWrapperLazy, PowerInteractor powerInteractor, WakeLockLogger wakeLockLogger) {
         super();
         mContext = context;
+	ActivityStarter activityStarter,
         mServices = new ArrayList<>();
         mAlarmManager = alarmManager;
         mCentralSurfaces = centralSurfaces;
         mUiEventLogger = uiEventLogger;
         mServiceConfigurationGoogle = serviceConfigurationGoogleLazy;
         mColumbusServiceLazy = columbusServiceWrapperLazy;
+        mPowerInteractor = powerInteractor;
+        mWakelockLogger = wakeLockLogger;
     }
 
     @Override
@@ -56,7 +66,7 @@ public class GoogleServices extends VendorServices {
             addService(new TouchContextService(mContext));
         }
         AmbientIndicationContainer ambientIndicationContainer = (AmbientIndicationContainer) mCentralSurfaces.getNotificationShadeWindowView().findViewById(R.id.ambient_indication_container);
-        ambientIndicationContainer.initializeView(mContext, mCentralSurfaces, ambientIndicationContainer);
+        ambientIndicationContainer.initializeView(mContext, mCentralSurfaces, ambientIndicationContainer, mPowerInteractor, mActivityStarter, mWakelockLogger);
         addService(new AmbientIndicationService(mContext, ambientIndicationContainer, mAlarmManager));
     }
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.systemui.ambientmusic
+package com.google.android.systemui.ambientmusic;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -55,7 +55,7 @@ public class AmbientIndicationService extends BroadcastReceiver {
         mContext = context;
         mAmbientIndicationContainer = ambientIndicationContainer;
         mAlarmManager = alarmManager;
-        mHideIndicationListener = () -> mAmbientIndicationContainer.hideAmbientMusic();
+        mHideIndicationListener = mAmbientIndicationContainer::hideAmbientMusic;
         start();
     }
 
